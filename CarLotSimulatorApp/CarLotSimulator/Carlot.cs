@@ -4,13 +4,9 @@ using System.Text;
 
 namespace CarLotSimulator
 {
-    internal class Carlot
+    internal class CarLot
     {
+        public static int numberOfCars;
         public List<Car> inventory { get; set; } = new List<Car>();
-
-        public void DisplayInventory(List<Car> inventory)
-        {
-
-        }
     }
 }
